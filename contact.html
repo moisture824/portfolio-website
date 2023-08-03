@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Kevin Moy</title>
+    <title>Kevin Moy Portfolio</title>
     <link rel="shortcut icon" sizes="16x16" href="img/favicon.png">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -37,18 +37,16 @@
 <main>
     <div class="contact-form">
         <h1>Kevin Moy</h1>
-        <p>Aspiring Web Developer</p>
-        <p>New York, NY 10001</p>
-        <p>USA</p>
+        <p>Aspiring Web Developer<br>New York, NY 10001<br>USA</p>
+        
+    <a href="tel: +1 212 302 2221">Tel: +1 (212) 302 2221</a>
         <br> <!--br is a line break in code-->
-    <a href="tel: +1 212 302 2221">Tel: +1 212 302 2221</a>
-        <br>
     <a href="mailto:melofever7@aim.com">Email: melofever7@aim.com</a>
         <br>
     <a href="mailto:melofever7@aim.com">Contact me</a>
     </div>
 
-    <div class="contact-form">
+    <div class="contact-info">
         <form action="" method="post" id="contact-form">
             <label class="standard-label" for="contact-email">Email: </label>
             <input type="email" id="contact-email" required>
@@ -56,9 +54,10 @@
             <label class="standard-label" for="contact-tel">Telephone: </label>
             <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>
           
-            <label class="standard-label" for="contact-message">Message: </label>
+            <label class="standard-label-message" for="contact-message">Message: </label>
             <textarea required maxlength="240" id="contact-message"></textarea>
-            <input type="submit" value="Send message">
+            <br>
+            <input class="standard-submit" type="submit" value="Send message">
           </form>
     </div>
 </main>
